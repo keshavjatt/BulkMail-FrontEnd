@@ -1,0 +1,62 @@
+/* Center alignment for the container */
+body {
+  background-image: url("../images/bg-02.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  margin: 0; 
+}
+.container {
+  max-width: 600px;
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+}
+
+/* Form label styling */
+.form-label {
+  font-weight: bold; /* Make the label text bold */
+  display: block;
+  margin-bottom: 5px;
+  text-align: left; /* Align the label to the left */
+}
+
+/* Button styling */
+.btn {
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+/* ReactQuill margin */
+.react-quill {
+  margin-bottom: 20px;
+}
+
+/* Custom height for ReactQuill editor */
+.custom-quill-editor .ql-container {
+  height: 120px; /* Set custom height for editor body */
+}
+
+/* Form group spacing */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .react-quill {
+    font-size: 14px;
+  }
+}
